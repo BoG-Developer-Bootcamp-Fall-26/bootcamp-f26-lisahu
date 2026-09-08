@@ -1,0 +1,6 @@
+Hey guys! I didn't apply through the bootcamp app, so I never made any intro cards. I'll still introduce myself here though.
+
+I'm Lisa, a second year from northern va majoring in math and computer science. My cs threads are intel and sysarch. I'm currently in cs 3510 and cs 2200 if you happen to know anyone there! 
+In my free time, I play the electric guitar and enjoy getting food in doraville/duluth. I've done some fullstack work in nextjs/postgres before, but am excited to learn abt mongo and express. My natural habitats are crosland floor 6, a culc study room, or george tower. 
+
+Instagram: @hu_is_lisa if you want to say hi!
