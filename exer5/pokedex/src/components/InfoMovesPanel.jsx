@@ -10,15 +10,15 @@ export const InfoMovesPanel = ({ props }) => {
     const abilities = props?.abilities;
     return (
         <div>
-            <ul>
+            <div className="flex flex-col">
                 {isInfo ? 
                     pokeStats?.map(([stat, value]) => (
-                        <li key={stat}>{`${stat}: ${value}`}</li>
+                        <p key={stat}>{`${stat}: ${value}`}</p>
                     ))
                     : 
-                    abilities?.map((a) => (<li key={a.ability.name}>{a.ability.name}</li>))
+                    abilities?.map((a) => (<p key={a.ability.name}>{a.ability.name}</p>))
                 }
-            </ul>
+            </div>
             <button onClick={() => setInfo(true)} disabled={isInfo}>Info</button>
             <button onClick={() => setInfo(false)} disabled={!isInfo}>Moves</button>
         </div>

@@ -18,7 +18,7 @@ const getPokemonJSON = async (dexNumber) => {
 }
 
 function App() {
-  const [id, setId] = useState(1025);
+  const [id, setId] = useState(1);
   const [pokemon, setPokemon] = useState(null);
 
   useEffect(() => {
