@@ -9,14 +9,18 @@ export const InfoMovesPanel = ({ props }) => {
     ]
     const abilities = props?.abilities;
     return (
-        <ul>
-            {isInfo ? 
-                pokeStats?.map(([stat, value]) => (
-                    <li key={stat}>{`${stat}: ${value}`}</li>
-                ))
-                : 
-                abilities?.map((a) => (<li key={a.ability.name}>{a.ability.name}</li>))
-            }
-        </ul>
+        <div>
+            <ul>
+                {isInfo ? 
+                    pokeStats?.map(([stat, value]) => (
+                        <li key={stat}>{`${stat}: ${value}`}</li>
+                    ))
+                    : 
+                    abilities?.map((a) => (<li key={a.ability.name}>{a.ability.name}</li>))
+                }
+            </ul>
+            <button onClick={() => setInfo(true)} disabled={isInfo}>Info</button>
+            <button onClick={() => setInfo(false)} disabled={!isInfo}>Moves</button>
+        </div>
     )
 }
