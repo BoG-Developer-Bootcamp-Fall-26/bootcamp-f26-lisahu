@@ -1,8 +1,5 @@
 # Exercise 5 — React Pokédex
 
-## Project Submission
-Video link: https://drive.google.com/file/d/1YDcU5zgkMQiy28bJPvo_WVC0n1TY8Wu9/view?usp=sharing
-
 ## Description
 
 In this project, you'll be creating a frontend that graphically displays Pokémon information (similiar to a Pokédex). To fetch all the necessary information, you'll be working with the [PokeAPI](https://pokeapi.co/docs/v2#pokemon).
